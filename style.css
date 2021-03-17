@@ -1,14 +1,32 @@
-.main-container
-{
-    background-color: #A9C437;
-    height: 100vh;
-    padding-top: 10px;
+.main-container {
+  background-color: #A9C437;
+  height: 100vh;
+  padding-top: 10px;
 }
-img {
-    border-radius: 20px;
-  }
-.main-nav {
-    border-radius: 20px;
-    border-style: solid;
-  }
 
+img {
+  border-radius: 20px;
+}
+
+.main-nav {
+  border-radius: 20px;
+  border-style: solid;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: transparent;
+  border: transparent;
+}
+
+#fb_button {
+  width: 60px;
+}
+
+#papierowy_motyl_button {
+  width: 40px;
+}
