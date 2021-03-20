@@ -8,10 +8,13 @@ img {
   border-radius: 20px;
 }
 
-.main-nav {
+.nav-footer{
+  background-color: #D2D73C;
   border-radius: 20px;
   border-style: solid;
 }
+
+
 
 .socialmedia {
   display: flex;
@@ -34,7 +37,8 @@ button {
 #oswdn_button {
   width: 55px;
 }
-.socialmediamenu{
+
+.socialmediamenu {
   position: absolute;
   right: 0px;
   z-index: 100;
@@ -60,6 +64,16 @@ button {
   height: 100%;
   width: 415px;
 }
+
 .title-section {
   color: #010101;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.title-section-disabled{
+  color: #212529;
+  font-size: 20px;
+  font-weight: bold;
 }
