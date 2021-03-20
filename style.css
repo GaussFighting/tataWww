@@ -28,5 +28,38 @@ button {
 }
 
 #papierowy_motyl_button {
-  width: 40px;
+  width: 45px;
+}
+
+#oswdn_button {
+  width: 55px;
+}
+.socialmediamenu{
+  position: absolute;
+  right: 0px;
+  z-index: 100;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  margin: 0 auto;
+}
+
+.rozmiarokladki {
+  height: 600px;
+}
+
+.okladka {
+  height: 600px;
+}
+
+.okladka img {
+  height: 100%;
+  width: 415px;
+}
+.title-section {
+  color: #010101;
 }

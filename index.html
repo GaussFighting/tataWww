@@ -11,22 +11,24 @@
 
   <title> Zbigniew Kowerczyk </title>
 
-  <link href="./style.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet" type="text/css" />
 
-  <script type="text/javascript" src="./script.js" defer></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./script.js" defer></script>
+  
 
 </head>
 
 <body>
   <div class="container-fluid main-container">
-    <nav class="navbar navbar-expand-lg navbar-light main-nav" style="background-color: #D2D73C;">
+    <nav class="navbar navbar-expand-lg main-nav" style="background-color: #D2D73C;">
       <div class="container-fluid">
-        <nav class="navbar navbar-light" style="background-color: #D2D73C;">
+        <nav class="navbar" style="background-color: #D2D73C;">
           <div class="container">
             <a class="navbar-brand" href="#">
               <img src="./pictures/signature.png" alt="" width="300" height="38">
@@ -39,14 +41,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">O AUTORZE</a>
+            <li class="nav-item px-5">
+              <a class="nav-link title-section" aria-current="page" href="#">O AUTORZE</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">KSIĄŻKI</a>
+            <li class="nav-item px-5">
+              <a class="nav-link title-section" href="#">KSIĄŻKI</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            <li class="nav-item px-5 dropdown">
+              <a class="nav-link title-section dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 MEDIA
               </a>
@@ -59,7 +61,7 @@
                 <li><a class="dropdown-item" href="#">INNE</a></li>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-5">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">W PRZYGOTOWANIU</a>
             </li>
           </ul>
@@ -67,25 +69,48 @@
       </div>
     </nav>
 
-
-
-    <div class="socialmedia"><button><a href="https://www.facebook.com/zbigniew.kowerczyk"><img id="fb_button"
-            src="./pictures/fbButton.png" alt="facebook button"></a></button></div>
-    <div class="socialmedia"><button><a href="http://papierowymotyl.pl/"><img id="papierowy_motyl_button"
-            src="./pictures/papierowyMotylButton.svg" alt="wydawnictwo papierowy motyl button"></a></button></div>
-
-
-
-
-
-
-
-
+    <div class="socialmediamenu">
+      <div class="socialmedia"><button><a href="https://www.facebook.com/zbigniew.kowerczyk"><img id="fb_button"
+              src="./pictures/fbButton.png" alt="facebook button"></a></button>
+      </div>
+      <div class="socialmedia"><button><a href="http://www.oswdn.pl/"><img id="oswdn_button"
+              src="./pictures/oswdnButton.png" alt="osrodek szkolno wychowawczy dzieci niewidomych button"></a></button>
+      </div>
+      <div class="socialmedia"><button><a href="http://papierowymotyl.pl/"><img id="papierowy_motyl_button"
+              src="./pictures/papierowyMotylButton.svg" alt="wydawnictwo papierowy motyl button"></a></button>
+      </div>
+    </div>
 
 
 
 
 
+    <div id="carouselExampleFade" class="carousel slide carousel-fade pt-4" data-bs-ride="carousel">
+      <div class="carousel-inner rozmiarokladki">
+
+        <div class="carousel-item active okladka w-100">
+          <img src="./pictures/zieloneSlonceOkladka.jpg" class="d-block " alt="...">
+        </div>
+        <div class="carousel-item okladka w-100">
+          <img src="./pictures/dwaBrakujaceSlowaOkladka.png" class="d-block " alt="...">
+        </div>
+        <div class="carousel-item okladka w-100">
+          <img src="./pictures/odwetOkladka.jpg" class="d-block " alt="...">
+        </div>
+       
+      </div>
+     
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+ 
 
 
 
@@ -93,6 +118,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+    
 
   </div>
 </body>
