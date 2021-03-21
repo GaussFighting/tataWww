@@ -1,6 +1,6 @@
 .main-container {
   background-color: #A9C437;
-  height: 100vh;
+
   padding-top: 10px;
 }
 
@@ -16,8 +16,8 @@ img {
 
 
 
-.socialmedia {
-  display: flex;
+.social-media-footer {
+  display: inline;
   justify-content: flex-end;
 }
 
@@ -38,10 +38,17 @@ button {
   width: 55px;
 }
 
-.socialmediamenu {
+.social-media-menu {
   position: absolute;
-  right: 0px;
+  right: 15px;
   z-index: 100;
+}
+
+.social-media-menu-footer {
+  position: absolute;
+  right: 50px;
+  z-index: 100;
+  bottom: 70px;
 }
 
 .carousel-item {
@@ -77,3 +84,65 @@ button {
   font-size: 20px;
   font-weight: bold;
 }
+
+.menu-chapter{
+  border-radius: 20px;
+}
+
+.menu-chapter:hover{
+  font-size: 20px;
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay:0.1s;
+
+}
+
+.menu-chapter:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+
+.signature{
+  z-index: 400px; 
+  transition: 1s;
+}
+.signature:hover{
+  transform: rotateY(180deg);
+  transition: 1s;
+}
+
+.signature:active{
+  /* transform: translateY(4px);
+  transform: translateX(4px); */
+  transform: rotateX(180deg);
+  transition: 1s;
+}
+
+
+/* .front {
+  background-color: red;
+  z-index: 400px;
+}
+
+.back {
+  background-color: blue;
+  transform: rotateY(180deg);
+}
+
+
+
+div id="card">
+
+
+            <div class="face front">
+                FRONT
+            </div>
+            <div class="face back">
+                END
+            </div>
+        </div> */
