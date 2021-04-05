@@ -1,8 +1,7 @@
-body {
-  /* font-family: 'Signika', sans-serif; */
-}
+
 
 .logo-footer {
+  width: 85%;
   margin-bottom: 40px;
 }
 
@@ -100,10 +99,6 @@ a:hover {
   position: relative;
 }
 
-.text-footer {
-  position: absolute;
-  left: 2%;
-}
 
 #fb_button_footer {
   width: 60px;

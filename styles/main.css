@@ -110,13 +110,6 @@ button {
   z-index: 100;
 }
 
-.social-media-menu-footer {
-  position: absolute;
-  right: 50px;
-  z-index: 100;
-  bottom: 70px;
-}
-
 .carousel-item {
   text-align: center;
 }
@@ -216,7 +209,9 @@ h1{
   text-align: justify;
 }
 
-
+pre{
+  font-family:  sans-serif;
+}
 
 
 
