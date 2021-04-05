@@ -2,11 +2,9 @@ body {
   /* font-family: 'Signika', sans-serif; */
 }
 
-
 .logo-footer {
   margin-bottom: 40px;
 }
-
 
 footer p, a {
   font-size: 12px;
@@ -98,11 +96,91 @@ a:hover {
   height: 100%;
 }
 
-.main-footer{
+.main-footer {
   position: relative;
 }
 
-.text-footer{
+.text-footer {
   position: absolute;
-  left: 30px;
+  left: 2%;
+}
+
+#fb_button_footer {
+  width: 60px;
+}
+
+#fb_button_footer:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+#fb_button_footer:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+
+#oswdn_button_footer {
+  width: 55px;
+}
+
+#oswdn_button_footer:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+#oswdn_button_footer:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+
+#papierowy_motyl_button_footer {
+  width: 45px;
+}
+
+#papierowy_motyl_button_footer:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+#papierowy_motyl_button_footer:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+
+#footer-button {
+  padding: 10px;
+}
+
+#footer-button:hover {
+  border: solid #010101;
+  border-radius: 15px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+#footer-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 15px;
 }
