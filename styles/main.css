@@ -1,6 +1,8 @@
 .main-container {
   background-color: #A9C437;
   padding-top: 10px;
+  min-height: 100vh;
+  ;
 }
 
 img {
@@ -104,6 +106,26 @@ button {
   border-radius: 20px;
 }
 
+#tecza_button {
+  width: 55px;
+}
+
+#tecza_button:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+#tecza_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+
 .social-media-menu {
   position: absolute;
   right: 15px;
@@ -181,7 +203,7 @@ button {
   transition: 1s;
 }
 
-.news{
+.news {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 15%;
@@ -192,32 +214,32 @@ button {
   background-color: #D2D73C
 }
 
-h1{
+h1 {
   font-size: 36px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #010101;
 }
 
-.textdata{
+.textdata {
   font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #585f66;
 }
-.textnews{
+
+.textnews {
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: justify;
 }
 
-pre{
-  font-family:  sans-serif;
+pre {
+  font-family: sans-serif;
 }
 
-
-
-
-
-
+.relative-parent {
+  position: relative;
+  min-height: 99vh;
+}
 
 /* .front {
   background-color: red;
