@@ -241,6 +241,22 @@ pre {
   min-height: 99vh;
 }
 
+.news-about {
+  margin-top: 100px;
+  margin-bottom: 50px;
+/* margin-left: 15%;
+  margin-right: 15%; */
+  border-style: hidden;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #D2D73C
+}
+
+#bigger{
+  max-width: 100%;
+}
+
+
 /* .front {
   background-color: red;
   z-index: 400px;
