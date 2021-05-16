@@ -230,6 +230,8 @@ h1 {
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: justify;
+
+  /* height: 560px; */
 }
 
 pre {
@@ -251,6 +253,8 @@ pre {
   border-radius: 20px;
   padding: 20px;
   background-color: #D2D73C;
+  height: 600px;
+  position: relative;
 }
 
 #bigger{
@@ -503,4 +507,73 @@ html, body {
 }
 .book-table{
   margin-bottom: -120px;
+}
+
+.social-media-books {
+  display: inline;
+  justify-content: flex-end;
+}
+
+.papierowy_motyl_button_books {
+  width: 45px;
+}
+
+.papierowy_motyl_button_books:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+.papierowy_motyl_button_books:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+
+.motyle_ksiazkowe_button_books {
+  width: 90px;
+}
+
+.motyle_ksiazkowe_button_books:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+.motyle_ksiazkowe_button_books:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+.empik_button_books {
+  width: 80px;
+}
+
+.empik_button_books:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+.empik_button_books:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+.books-footer{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
