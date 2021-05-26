@@ -599,3 +599,18 @@ html, body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   border-radius: 10px;
+}
+
+.youtube-video{
+  margin-bottom: 50px;
+}
+
+#youtube-video{
+  border-radius: 20px;
+}
+
+.polityka{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
