@@ -769,12 +769,15 @@ body {
 
 .naklejka {
  
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
   border-style: hidden;
   border-radius: 20px;
   padding: 20px;
-  background-color: #D2D73C;
-  margin: 1em;
-  float: left;
+  background-color: #D2D73C
 
 }
 
@@ -812,7 +815,7 @@ body {
 }
 
 #Awesome .reveal .circle {
-  background: #fafafa;
+  background: #3e8e41;
 }
 
 #Awesome .circle_wrapper {
@@ -892,4 +895,110 @@ body {
   margin-top: -90px;
   background-color: #e2d439;
   background-position: 0 100px;
+}
+
+
+
+body .product {
+  height: 500px;
+  width: 500px;
+  padding: 35px 0px 0px;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-color: #A9C437;
+ 
+}
+body .product:hover .vinyl {
+  top: -5px;
+  transform: rotateZ(-25deg) translateX(2px) translateY(-2px);
+}
+body .product .vinyl {
+  position: relative;
+  z-index: 1;
+  top: 40px;
+  transition: 1s;
+  transform: rotateZ(30deg) translateX(2px);
+}
+body .product .vinyl .vinyl-inside {
+  position: relative;
+  z-index: 2;
+  width: 8px;
+  height: 8px;
+  box-shadow: 0px 0px 0px 16px #e4262f;
+  border-radius: 50%;
+  top: 9px;
+  left: 1px;
+  margin: 0 auto;
+}
+body .product .vinyl .vinyl-outside {
+  position: relative;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  box-shadow: 0px 0px 0px 65px #000;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+body .product .vinyl .vinyl-outside .light-mask {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -65px;
+  left: -65px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .product .vinyl .vinyl-outside .light-mask .light {
+  position: absolute;
+  width: 45px;
+  height: 70px;
+}
+body .product .vinyl .vinyl-outside .light-mask .light.light1 {
+  left: 50px;
+  top: 0px;
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 0.4) 100%);
+}
+body .product .vinyl .vinyl-outside .light-mask .light.light2 {
+  left: 50px;
+  bottom: 0px;
+  -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 0.4) 100%);
+}
+body .product .vinyl-bag {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  z-index: 2;
+  background-color:  #009746;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+}
+body .product .vinyl-bag .album-cover {
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: url(./../pictures/zieloneSlonceAudiobook.jpg) no-repeat;
+  background-size: cover;
+}
+body .product .vinyl-bag-top {
+  width: 350px;
+  height: 10px;
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+  background-color:  #007938;
+  position: absolute;
+  z-index: 0;
+  top: 26px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
 }
