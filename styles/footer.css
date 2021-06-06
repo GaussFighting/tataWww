@@ -98,11 +98,19 @@ a:hover {
   font-size: 22px;
 }
 
-#fb_button_footer {
+#fb_img_footer {
   width: 60px;
 }
 
 #fb_button_footer:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+#fb_button_footer:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -118,11 +126,19 @@ a:hover {
   border-radius: 20px;
 }
 
-#oswdn_button_footer {
+#oswdn_img_footer {
   width: 55px;
 }
 
 #oswdn_button_footer:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+#oswdn_button_footer:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -138,11 +154,19 @@ a:hover {
   border-radius: 20px;
 }
 
-#papierowy_motyl_button_footer {
+#papierowy_motyl_img_footer {
   width: 45px;
 }
 
 #papierowy_motyl_button_footer:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+#papierowy_motyl_button_footer:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -158,11 +182,19 @@ a:hover {
   border-radius: 20px;
 }
 
-#tecza_button_footer {
+#tecza_img_footer {
   width: 55px;
 }
 
 #tecza_button_footer:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+#tecza_button_footer:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -178,11 +210,19 @@ a:hover {
   border-radius: 20px;
 }
 
-#footer-button {
+.footer-button {
   padding: 10px;
 }
 
-#footer-button:hover {
+.footer-button:hover {
+  border: solid #010101;
+  border-radius: 15px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+.footer-button:focus-visible {
   border: solid #010101;
   border-radius: 15px;
   background-color: #A9C437;
@@ -191,7 +231,7 @@ a:hover {
   transition-delay: 0.1s;
 }
 
-#footer-button:active {
+.footer-button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);

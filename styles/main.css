@@ -46,12 +46,19 @@ button {
   background-color: transparent;
   border: transparent;
 }
-
-#fb_button {
+#fb_img {
   width: 60px;
 }
 
 #fb_button:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+#fb_button:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -67,11 +74,19 @@ button {
   border-radius: 20px;
 }
 
-#oswdn_button {
+#oswdn_img {
   width: 55px;
 }
 
 #oswdn_button:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+#oswdn_button:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -87,11 +102,19 @@ button {
   border-radius: 20px;
 }
 
-#papierowy_motyl_button {
+#papierowy_motyl_img {
   width: 45px;
 }
 
 #papierowy_motyl_button:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+#papierowy_motyl_button:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -107,11 +130,19 @@ button {
   border-radius: 20px;
 }
 
-#tecza_button {
+#tecza_img {
   width: 55px;
 }
 
 #tecza_button:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+#tecza_button:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -173,6 +204,16 @@ button {
 }
 
 .menu-chapter:hover {
+  font-size: 20px;
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+.menu-chapter:focus-visible {
   font-size: 20px;
   border: solid #010101;
   border-radius: 20px;
@@ -539,11 +580,19 @@ body {
   justify-content: flex-end;
 }
 
-.papierowy_motyl_button_books {
+.papierowy_motyl_img_books {
   width: 45px;
 }
 
 .papierowy_motyl_button_books:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+.papierowy_motyl_button_books:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -559,11 +608,19 @@ body {
   border-radius: 20px;
 }
 
-.motyle_ksiazkowe_button_books {
+.motyle_ksiazkowe_img_books {
   width: 90px;
 }
 
 .motyle_ksiazkowe_button_books:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+.motyle_ksiazkowe_button_books:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -579,11 +636,19 @@ body {
   border-radius: 20px;
 }
 
-.empik_button_books {
+.empik_img_books {
   width: 80px;
 }
 
 .empik_button_books:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+.empik_button_books:focus-visible {
   border: solid #010101;
   border-radius: 20px;
   background-color: #A9C437;
@@ -614,6 +679,14 @@ body {
 }
 
 .read-more-button:hover {
+  border: solid #010101;
+  border-radius: 10px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+.read-more-button:focus-visible {
   border: solid #010101;
   border-radius: 10px;
   background-color: #A9C437;
