@@ -110,3 +110,40 @@ function readMore(event) {
 
   }
 }
+
+function readMore1(event) {
+
+  const button = event.target;
+  const newsAboutDiv = button.parentElement.parentElement;
+  const bookTableDiv = button.parentElement.parentElement.parentElement.parentElement;
+  const bookOdwet = bookTableDiv.children[1].children[0].children[0].children[0];
+  const bookGrandParent = bookOdwet.parentElement.parentElement.parentElement.parentElement.parentElement;
+
+  const dots = button.parentElement.children[1].children[0];
+  const moreText = button.parentElement.children[1].children[1];
+
+
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    button.innerHTML = "Czytaj więcej";
+    moreText.style.display = "none";
+
+    button.style.marginBottom = "0px"
+    newsAboutDiv.style.height = "600px"
+    // bookOdwet.style.position = "relative"
+    // bookGrandParent.style.height = "inherit"
+
+
+  } else {
+    dots.style.display = "none";
+    button.innerHTML = "Czytaj mniej";
+    moreText.style.display = "inline";
+
+    button.style.marginBottom = "200px"
+    newsAboutDiv.style.height = "auto"
+    // bookOdwet.style.position = "absolute"
+    // bookGrandParent.style.height = "800px"
+
+  }
+}

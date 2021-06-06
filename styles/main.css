@@ -2,7 +2,8 @@
   background-color: #A9C437;
   padding-top: 10px;
   min-height: 100vh;
-  ;
+
+  
 }
 
 img {
@@ -167,6 +168,8 @@ button {
 
 .menu-chapter {
   border-radius: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
 }
 
 .menu-chapter:hover {
@@ -211,7 +214,7 @@ button {
   border-style: hidden;
   border-radius: 20px;
   padding: 20px;
-  background-color: #D2D73C
+  background-color: #D2D73C;
 }
 
 h1 {
@@ -228,7 +231,7 @@ h1 {
 
 .textnews {
   font-size: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Calibri;
   text-align: justify;
   /* height: 560px; */
 }
@@ -897,7 +900,10 @@ body {
   background-position: 0 100px;
 }
 
-
+.vinyl-column-div{
+  position: relative;
+  height: 450px;
+}
 
 body .product {
   height: 500px;
@@ -905,20 +911,20 @@ body .product {
   padding: 35px 0px 0px;
   cursor: pointer;
   position: absolute;
-  top: 40%;
-  left: 20%;
-  transform: translate(-50%, -50%);
+  top: 100px;
+  left: -80px;
+  /* transform: translate(-50%, -50%); */
   background-color: #A9C437;
  
 }
 body .product:hover .vinyl {
-  top: -5px;
+  top: -25px;
   transform: rotateZ(-25deg) translateX(2px) translateY(-2px);
 }
 body .product .vinyl {
   position: relative;
   z-index: 1;
-  top: 40px;
+  top: 60px;
   transition: 1s;
   transform: rotateZ(30deg) translateX(2px);
 }
@@ -1001,4 +1007,11 @@ body .product .vinyl-bag-top {
   left: 0px;
   right: 0px;
   margin: 0 auto;
+}
+
+
+@media (max-width: 1239px){
+  body .product {
+    left: 114px;
+  }
 }

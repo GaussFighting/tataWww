@@ -8,7 +8,7 @@
 */
 
 footer h6 {
-  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 40px;
   position: relative;
 }
@@ -94,6 +94,8 @@ a:hover {
 
 .main-footer {
   position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
 }
 
 #fb_button_footer {
