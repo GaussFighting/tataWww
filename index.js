@@ -1,3 +1,4 @@
+
 function setCopyright() {
   let currentDate = new Date();
   let currentYear = currentDate.getFullYear();
@@ -147,3 +148,20 @@ function readMore1(event) {
 
   }
 }
+
+var myAudio = document.getElementById("audio1"); 
+
+function playPause() { 
+  const playPauseImg = document.getElementById("audiozsimg");
+  if (myAudio.paused) {
+    myAudio.play(); 
+     playPauseImg.src = "./pictures/pausebutton.png";
+     
+
+    }else {
+    myAudio.pause(); 
+    playPauseImg.src = "./pictures/playbutton.png";
+    
+  }
+} 
+

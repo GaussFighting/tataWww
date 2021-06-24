@@ -1088,3 +1088,34 @@ body .product .vinyl-bag-top {
     left: 114px;
   }
 }
+.audiozs_button_books{
+  width: 50%;
+  height: auto;
+}
+.audiozs_button_books:hover {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+.audiozs_button_books:focus-visible {
+  border: solid #010101;
+  border-radius: 20px;
+  background-color: #A9C437;
+  opacity: 0.9;
+  box-shadow: 0 9px #999;
+  transition-delay: 0.1s;
+}
+
+.audiozs_button_books:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 20px;
+}
+#audiozsimg{
+  width: 30%;
+  height: auto;
+}
