@@ -40,7 +40,6 @@ img {
 .social-media-footer {
   display: inline;
   justify-content: flex-end;
-  padding-left: 2px;
 }
 
 button {
@@ -272,7 +271,7 @@ h1 {
 }
 
 .textnews {
-  font-size: 20px;
+  font-size: 2rem;
   font-family: Calibri;
   text-align: justify;
   /* height: 560px; */
@@ -298,6 +297,34 @@ pre {
   background-color: #D2D73C;
   height: 600px;
   position: relative;
+
+}
+.news-about-about {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  border-style: hidden;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #D2D73C;
+  height: 90%;
+  position: relative;
+
+}
+
+.news-about-bigger {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  border-style: hidden;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #D2D73C;
+  height: 570px;
+  position: relative;
+  text-align: center;
 }
 
 #bigger {
@@ -705,6 +732,7 @@ body {
 
 .youtube-video {
   margin-bottom: 50px;
+  max-width: 100%;
 }
 
 #youtube-video {
@@ -715,6 +743,27 @@ body {
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: center;
+  max-width: 100%;
+}
+
+.nominacja {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.gazetawroclawska {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+.slowowroclawian {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 100%;
 }
 
 .snote {
